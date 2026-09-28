@@ -1,0 +1,52 @@
+Attached Element Context from Integrated Browser
+
+Element: p
+
+URL: file:///Users/msh/portfolio/index.html
+
+HTML Path: main#top > section.shell.hero > div.hero-visual > div.image-frame > div.portrait-placeholder > div.portrait-card > p
+
+Outer HTML:
+```html
+<p>Replace this space with your portrait</p>
+```
+
+Dimensions:
+- top: 303px
+- left: 269px
+- width: 155px
+- height: 33px
+
+CSS:
+```css
+*, *::before, *::after { box-sizing: border-box; }
+.portrait-card p { max-width: 155px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.5; }
+
+/* Inherited */
+.portrait-card { color: var(--deep-green); text-align: center }
+body { color: var(--ink); font-family: var(--sans) }
+
+/* Resolved values */
+margin: 0px;
+box-sizing: border-box;
+color: rgb(102, 113, 106);
+display: block;
+font-family: Manrope, sans-serif;
+font-size: 11px;
+height: 33px;
+line-height: 16.5px;
+margin-block-end: 0px /*UA*/;
+margin-block-start: 0px /*UA*/;
+margin-inline-end: 0px /*UA*/;
+margin-inline-start: 0px /*UA*/;
+max-width: 155px;
+text-align: center;
+unicode-bidi: isolate /*UA*/;
+width: 155px;
+
+/* CSS variables */
+--muted: #66716a;
+--sans: "Manrope", sans-serif;
+--deep-green: #244b38;
+--ink: #18211e;
+```
